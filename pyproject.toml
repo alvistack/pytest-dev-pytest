@@ -1,5 +1,6 @@
 [project]
 name = "pytest"
+version = "8.2.1"
 description = "pytest: simple powerful testing with Python"
 readme = "README.rst"
 keywords = [
@@ -36,9 +37,6 @@ classifiers = [
     "Topic :: Software Development :: Testing",
     "Topic :: Utilities",
 ]
-dynamic = [
-    "version",
-]
 dependencies = [
     'colorama; sys_platform == "win32"',
     'exceptiongroup>=1.0.0rc8; python_version < "3.11"',
@@ -72,15 +70,11 @@ pytest = "pytest:console_main"
 build-backend = "setuptools.build_meta"
 requires = [
     "setuptools>=61",
-    "setuptools-scm[toml]>=6.2.3",
 ]
 
 [tool.setuptools.package-data]
 "_pytest" = ["py.typed"]
 "pytest" = ["py.typed"]
-
-[tool.setuptools_scm]
-write_to = "src/_pytest/_version.py"
 
 [tool.black]
 target-version = ['py38']
