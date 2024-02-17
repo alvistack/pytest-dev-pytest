@@ -1,0 +1,5 @@
+python-pytest (100:8.0.2-1) UNRELEASED; urgency=medium
+
+  * https://github.com/pytest-dev/pytest/releases/tag/8.0.2
+
+ -- Wong Hoi Sing Edison <hswong3i@pantarei-design.com>  Sun, 25 Feb 2024 11:51:18 +0800
