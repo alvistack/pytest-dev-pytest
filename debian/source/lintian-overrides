@@ -1,0 +1,5 @@
+python-pytest source: file-without-copyright-information
+python-pytest source: no-debian-changes
+python-pytest source: source-contains-prebuilt-windows-binary
+python-pytest source: source-is-missing
+python-pytest source: source-package-encodes-python-version
